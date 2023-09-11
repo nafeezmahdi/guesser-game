@@ -8,7 +8,7 @@ function gameResult() {
   //   console.log("okk");
 
   if (chance !== 0 && chance <= 3) {
-    console.log(valueElement);
+  //  console.log(valueElement);
     if (valueElement === randomNumber) {
       showingResultElement.style.display = "block";
       gameOverMassage.innerText = "You Won, Congratulations!!";
